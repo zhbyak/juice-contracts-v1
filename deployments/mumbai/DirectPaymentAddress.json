@@ -1,0 +1,201 @@
+{
+  "address": "0x87E48a46c58C4943fbA5790B597D21F395733463",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "contract ITerminalDirectory",
+          "name": "_terminalDirectory",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_projectId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "string",
+          "name": "_memo",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "payer",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "projectId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "beneficiary",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "memo",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "preferUnstakedTickets",
+          "type": "bool"
+        }
+      ],
+      "name": "Forward",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "memo",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "projectId",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "terminalDirectory",
+      "outputs": [
+        {
+          "internalType": "contract ITerminalDirectory",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "transactionHash": "0xdec4f9b9f9a2d5cf0dc8fcfc27500c65ab3c43b3024e02aca2b5632cf0e7c7d1",
+  "receipt": {
+    "to": null,
+    "from": "0x95C54D662c31672b2E9C572959AcF93cc883a0A5",
+    "contractAddress": "0x87E48a46c58C4943fbA5790B597D21F395733463",
+    "transactionIndex": 2,
+    "gasUsed": "512363",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000800000000000000000000100000000004000200000000000000000000000000000000000000000000080000000000000000000000000000000004000000000000000000000000080000000000000000000200000000000000000000000000000000000000000000000000000000000004000000000000000000001000000000000000000000000000000100040000000000000000000000000000000000000000000000000000000000000000000100000",
+    "blockHash": "0x8163e6bf04f6de27e68fb1113562bb4e307768165d782f91885078b8a29bb4ff",
+    "transactionHash": "0xdec4f9b9f9a2d5cf0dc8fcfc27500c65ab3c43b3024e02aca2b5632cf0e7c7d1",
+    "logs": [
+      {
+        "transactionIndex": 2,
+        "blockNumber": 25967450,
+        "transactionHash": "0xdec4f9b9f9a2d5cf0dc8fcfc27500c65ab3c43b3024e02aca2b5632cf0e7c7d1",
+        "address": "0x0000000000000000000000000000000000001010",
+        "topics": [
+          "0x4dfe1bbbcf077ddc3e01291eea2d5c70c2b422b415d95645b9adcfd678cb1d63",
+          "0x0000000000000000000000000000000000000000000000000000000000001010",
+          "0x00000000000000000000000095c54d662c31672b2e9c572959acf93cc883a0a5",
+          "0x000000000000000000000000be188d6641e8b680743a4815dfa0f6208038960f"
+        ],
+        "data": "0x000000000000000000000000000000000000000000000000002467d423e2986700000000000000000000000000000000000000000000000029e9f0a6caa9ef0000000000000000000000000000000000000000000000114502069ffafa5f653800000000000000000000000000000000000000000000000029c588d2a6c75699000000000000000000000000000000000000000000001145022b07cf1e41fd9f",
+        "logIndex": 99,
+        "blockHash": "0x8163e6bf04f6de27e68fb1113562bb4e307768165d782f91885078b8a29bb4ff"
+      }
+    ],
+    "blockNumber": 25967450,
+    "cumulativeGasUsed": "1828259",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "0x4533f15d4D83a9c8050Cd4BCf4186b4853A3b525",
+    "12",
+    ""
+  ],
+  "solcInputHash": "b611a48ccf636fef65065ee937e0c17d",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.6+commit.11564f7e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract ITerminalDirectory\",\"name\":\"_terminalDirectory\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_projectId\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"_memo\",\"type\":\"string\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"payer\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"projectId\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"beneficiary\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"memo\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"preferUnstakedTickets\",\"type\":\"bool\"}],\"name\":\"Forward\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"memo\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"projectId\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"terminalDirectory\",\"outputs\":[{\"internalType\":\"contract ITerminalDirectory\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"stateMutability\":\"payable\",\"type\":\"receive\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"constructor\":{\"params\":{\"_memo\":\"The memo to use when this contract forwards a payment to a terminal.\",\"_projectId\":\"The ID of the project to pay when this contract receives funds.\",\"_terminalDirectory\":\"A directory of a project's current Juicebox terminal to receive payments in.\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"memo()\":{\"notice\":\"The memo to use when this contract forwards a payment to a terminal.\"},\"projectId()\":{\"notice\":\"The ID of the project to pay when this contract receives funds.\"},\"terminalDirectory()\":{\"notice\":\"The directory to use when resolving which terminal to send the payment to.\"}},\"notice\":\"A contract that can receive funds directly and forward to a project's current terminal.\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/DirectPaymentAddress.sol\":\"DirectPaymentAddress\"},\"evmVersion\":\"berlin\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":10000},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/token/ERC721/IERC721.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.0;\\n\\nimport \\\"../../utils/introspection/IERC165.sol\\\";\\n\\n/**\\n * @dev Required interface of an ERC721 compliant contract.\\n */\\ninterface IERC721 is IERC165 {\\n    /**\\n     * @dev Emitted when `tokenId` token is transferred from `from` to `to`.\\n     */\\n    event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);\\n\\n    /**\\n     * @dev Emitted when `owner` enables `approved` to manage the `tokenId` token.\\n     */\\n    event Approval(address indexed owner, address indexed approved, uint256 indexed tokenId);\\n\\n    /**\\n     * @dev Emitted when `owner` enables or disables (`approved`) `operator` to manage all of its assets.\\n     */\\n    event ApprovalForAll(address indexed owner, address indexed operator, bool approved);\\n\\n    /**\\n     * @dev Returns the number of tokens in ``owner``'s account.\\n     */\\n    function balanceOf(address owner) external view returns (uint256 balance);\\n\\n    /**\\n     * @dev Returns the owner of the `tokenId` token.\\n     *\\n     * Requirements:\\n     *\\n     * - `tokenId` must exist.\\n     */\\n    function ownerOf(uint256 tokenId) external view returns (address owner);\\n\\n    /**\\n     * @dev Safely transfers `tokenId` token from `from` to `to`, checking first that contract recipients\\n     * are aware of the ERC721 protocol to prevent tokens from being forever locked.\\n     *\\n     * Requirements:\\n     *\\n     * - `from` cannot be the zero address.\\n     * - `to` cannot be the zero address.\\n     * - `tokenId` token must exist and be owned by `from`.\\n     * - If the caller is not `from`, it must be have been allowed to move this token by either {approve} or {setApprovalForAll}.\\n     * - If `to` refers to a smart contract, it must implement {IERC721Receiver-onERC721Received}, which is called upon a safe transfer.\\n     *\\n     * Emits a {Transfer} event.\\n     */\\n    function safeTransferFrom(\\n        address from,\\n        address to,\\n        uint256 tokenId\\n    ) external;\\n\\n    /**\\n     * @dev Transfers `tokenId` token from `from` to `to`.\\n     *\\n     * WARNING: Usage of this method is discouraged, use {safeTransferFrom} whenever possible.\\n     *\\n     * Requirements:\\n     *\\n     * - `from` cannot be the zero address.\\n     * - `to` cannot be the zero address.\\n     * - `tokenId` token must be owned by `from`.\\n     * - If the caller is not `from`, it must be approved to move this token by either {approve} or {setApprovalForAll}.\\n     *\\n     * Emits a {Transfer} event.\\n     */\\n    function transferFrom(\\n        address from,\\n        address to,\\n        uint256 tokenId\\n    ) external;\\n\\n    /**\\n     * @dev Gives permission to `to` to transfer `tokenId` token to another account.\\n     * The approval is cleared when the token is transferred.\\n     *\\n     * Only a single account can be approved at a time, so approving the zero address clears previous approvals.\\n     *\\n     * Requirements:\\n     *\\n     * - The caller must own the token or be an approved operator.\\n     * - `tokenId` must exist.\\n     *\\n     * Emits an {Approval} event.\\n     */\\n    function approve(address to, uint256 tokenId) external;\\n\\n    /**\\n     * @dev Returns the account approved for `tokenId` token.\\n     *\\n     * Requirements:\\n     *\\n     * - `tokenId` must exist.\\n     */\\n    function getApproved(uint256 tokenId) external view returns (address operator);\\n\\n    /**\\n     * @dev Approve or remove `operator` as an operator for the caller.\\n     * Operators can call {transferFrom} or {safeTransferFrom} for any token owned by the caller.\\n     *\\n     * Requirements:\\n     *\\n     * - The `operator` cannot be the caller.\\n     *\\n     * Emits an {ApprovalForAll} event.\\n     */\\n    function setApprovalForAll(address operator, bool _approved) external;\\n\\n    /**\\n     * @dev Returns if the `operator` is allowed to manage all of the assets of `owner`.\\n     *\\n     * See {setApprovalForAll}\\n     */\\n    function isApprovedForAll(address owner, address operator) external view returns (bool);\\n\\n    /**\\n     * @dev Safely transfers `tokenId` token from `from` to `to`.\\n     *\\n     * Requirements:\\n     *\\n     * - `from` cannot be the zero address.\\n     * - `to` cannot be the zero address.\\n     * - `tokenId` token must exist and be owned by `from`.\\n     * - If the caller is not `from`, it must be approved to move this token by either {approve} or {setApprovalForAll}.\\n     * - If `to` refers to a smart contract, it must implement {IERC721Receiver-onERC721Received}, which is called upon a safe transfer.\\n     *\\n     * Emits a {Transfer} event.\\n     */\\n    function safeTransferFrom(\\n        address from,\\n        address to,\\n        uint256 tokenId,\\n        bytes calldata data\\n    ) external;\\n}\\n\",\"keccak256\":\"0xf101e8720213560fab41104d53b3cc7ba0456ef3a98455aa7f022391783144a0\",\"license\":\"MIT\"},\"@openzeppelin/contracts/utils/introspection/IERC165.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev Interface of the ERC165 standard, as defined in the\\n * https://eips.ethereum.org/EIPS/eip-165[EIP].\\n *\\n * Implementers can declare support of contract interfaces, which can then be\\n * queried by others ({ERC165Checker}).\\n *\\n * For an implementation, see {ERC165}.\\n */\\ninterface IERC165 {\\n    /**\\n     * @dev Returns true if this contract implements the interface defined by\\n     * `interfaceId`. See the corresponding\\n     * https://eips.ethereum.org/EIPS/eip-165#how-interfaces-are-identified[EIP section]\\n     * to learn more about how these ids are created.\\n     *\\n     * This function call must use less than 30 000 gas.\\n     */\\n    function supportsInterface(bytes4 interfaceId) external view returns (bool);\\n}\\n\",\"keccak256\":\"0xa28007762d9da9db878dd421960c8cb9a10471f47ab5c1b3309bfe48e9e79ff4\",\"license\":\"MIT\"},\"contracts/DirectPaymentAddress.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity 0.8.6;\\n\\nimport \\\"./interfaces/IDirectPaymentAddress.sol\\\";\\nimport \\\"./interfaces/ITerminalDirectory.sol\\\";\\n\\n/** \\n  @notice\\n  A contract that can receive funds directly and forward to a project's current terminal.\\n*/\\ncontract DirectPaymentAddress is IDirectPaymentAddress {\\n    // --- public immutable stored properties --- //\\n\\n    /// @notice The directory to use when resolving which terminal to send the payment to.\\n    ITerminalDirectory public immutable override terminalDirectory;\\n\\n    /// @notice The ID of the project to pay when this contract receives funds.\\n    uint256 public immutable override projectId;\\n\\n    // --- public stored properties --- //\\n\\n    /// @notice The memo to use when this contract forwards a payment to a terminal.\\n    string public override memo;\\n\\n    // --- external transactions --- //\\n\\n    /** \\n      @param _terminalDirectory A directory of a project's current Juicebox terminal to receive payments in.\\n      @param _projectId The ID of the project to pay when this contract receives funds.\\n      @param _memo The memo to use when this contract forwards a payment to a terminal.\\n    */\\n    constructor(\\n        ITerminalDirectory _terminalDirectory,\\n        uint256 _projectId,\\n        string memory _memo\\n    ) {\\n        terminalDirectory = _terminalDirectory;\\n        projectId = _projectId;\\n        memo = _memo;\\n    }\\n\\n    // Receive funds and make a payment to the project's current terminal.\\n    receive() external payable {\\n        // Check to see if the sender has configured a beneficiary.\\n        address _storedBeneficiary = terminalDirectory.beneficiaryOf(\\n            msg.sender\\n        );\\n        // If no beneficiary is configured, use the sender's address.\\n        address _beneficiary = _storedBeneficiary != address(0)\\n            ? _storedBeneficiary\\n            : msg.sender;\\n\\n        bool _preferUnstakedTickets = terminalDirectory\\n        .unstakedTicketsPreferenceOf(msg.sender);\\n\\n        terminalDirectory.terminalOf(projectId).pay{value: msg.value}(\\n            projectId,\\n            _beneficiary,\\n            memo,\\n            _preferUnstakedTickets\\n        );\\n\\n        emit Forward(\\n            msg.sender,\\n            projectId,\\n            _beneficiary,\\n            msg.value,\\n            memo,\\n            _preferUnstakedTickets\\n        );\\n    }\\n}\\n\",\"keccak256\":\"0x95d34a84120b227a0047f2c2dba09edbd31a2005d553eee317e27dba241a1aab\",\"license\":\"MIT\"},\"contracts/interfaces/IDirectPaymentAddress.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity 0.8.6;\\n\\nimport \\\"./ITerminalDirectory.sol\\\";\\nimport \\\"./ITerminal.sol\\\";\\n\\ninterface IDirectPaymentAddress {\\n    event Forward(\\n        address indexed payer,\\n        uint256 indexed projectId,\\n        address beneficiary,\\n        uint256 value,\\n        string memo,\\n        bool preferUnstakedTickets\\n    );\\n\\n    function terminalDirectory() external returns (ITerminalDirectory);\\n\\n    function projectId() external returns (uint256);\\n\\n    function memo() external returns (string memory);\\n}\\n\",\"keccak256\":\"0x6e1770ac38a8fd90c51745f98a06b0461963ffae3116dab3761fda175e10a3da\",\"license\":\"MIT\"},\"contracts/interfaces/IOperatorStore.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity 0.8.6;\\n\\ninterface IOperatorStore {\\n    event SetOperator(\\n        address indexed operator,\\n        address indexed account,\\n        uint256 indexed domain,\\n        uint256[] permissionIndexes,\\n        uint256 packed\\n    );\\n\\n    function permissionsOf(\\n        address _operator,\\n        address _account,\\n        uint256 _domain\\n    ) external view returns (uint256);\\n\\n    function hasPermission(\\n        address _operator,\\n        address _account,\\n        uint256 _domain,\\n        uint256 _permissionIndex\\n    ) external view returns (bool);\\n\\n    function hasPermissions(\\n        address _operator,\\n        address _account,\\n        uint256 _domain,\\n        uint256[] calldata _permissionIndexes\\n    ) external view returns (bool);\\n\\n    function setOperator(\\n        address _operator,\\n        uint256 _domain,\\n        uint256[] calldata _permissionIndexes\\n    ) external;\\n\\n    function setOperators(\\n        address[] calldata _operators,\\n        uint256[] calldata _domains,\\n        uint256[][] calldata _permissionIndexes\\n    ) external;\\n}\\n\",\"keccak256\":\"0xe89167e611fd4be161eab80dfdd24da66bdb37a80aad583bf05a0c934117b8f6\",\"license\":\"MIT\"},\"contracts/interfaces/IProjects.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity 0.8.6;\\n\\nimport \\\"@openzeppelin/contracts/token/ERC721/IERC721.sol\\\";\\n\\nimport \\\"./ITerminal.sol\\\";\\nimport \\\"./IOperatorStore.sol\\\";\\n\\ninterface IProjects is IERC721 {\\n    event Create(\\n        uint256 indexed projectId,\\n        address indexed owner,\\n        bytes32 indexed handle,\\n        string uri,\\n        ITerminal terminal,\\n        address caller\\n    );\\n\\n    event SetHandle(\\n        uint256 indexed projectId,\\n        bytes32 indexed handle,\\n        address caller\\n    );\\n\\n    event SetUri(uint256 indexed projectId, string uri, address caller);\\n\\n    event TransferHandle(\\n        uint256 indexed projectId,\\n        address indexed to,\\n        bytes32 indexed handle,\\n        bytes32 newHandle,\\n        address caller\\n    );\\n\\n    event ClaimHandle(\\n        address indexed account,\\n        uint256 indexed projectId,\\n        bytes32 indexed handle,\\n        address caller\\n    );\\n\\n    event ChallengeHandle(\\n        bytes32 indexed handle,\\n        uint256 challengeExpiry,\\n        address caller\\n    );\\n\\n    event RenewHandle(\\n        bytes32 indexed handle,\\n        uint256 indexed projectId,\\n        address caller\\n    );\\n\\n    function count() external view returns (uint256);\\n\\n    function uriOf(uint256 _projectId) external view returns (string memory);\\n\\n    function handleOf(uint256 _projectId) external returns (bytes32 handle);\\n\\n    function projectFor(bytes32 _handle) external returns (uint256 projectId);\\n\\n    function transferAddressFor(bytes32 _handle)\\n        external\\n        returns (address receiver);\\n\\n    function challengeExpiryOf(bytes32 _handle) external returns (uint256);\\n\\n    function exists(uint256 _projectId) external view returns (bool);\\n\\n    function create(\\n        address _owner,\\n        bytes32 _handle,\\n        string calldata _uri,\\n        ITerminal _terminal\\n    ) external returns (uint256 id);\\n\\n    function setHandle(uint256 _projectId, bytes32 _handle) external;\\n\\n    function setUri(uint256 _projectId, string calldata _uri) external;\\n\\n    function transferHandle(\\n        uint256 _projectId,\\n        address _to,\\n        bytes32 _newHandle\\n    ) external returns (bytes32 _handle);\\n\\n    function claimHandle(\\n        bytes32 _handle,\\n        address _for,\\n        uint256 _projectId\\n    ) external;\\n}\\n\",\"keccak256\":\"0x8737307dc78cee4afa738a6771dabfaf3378f3678f67490f3ce6ca3ac37ac654\",\"license\":\"MIT\"},\"contracts/interfaces/ITerminal.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity 0.8.6;\\n\\nimport './ITerminalDirectory.sol';\\n\\ninterface ITerminal {\\n  function terminalDirectory() external view returns (ITerminalDirectory);\\n\\n  function migrationIsAllowed(ITerminal _terminal) external view returns (bool);\\n\\n  function pay(\\n    uint256 _projectId,\\n    address _beneficiary,\\n    string calldata _memo,\\n    bool _preferUnstakedTickets\\n  ) external payable returns (uint256 fundingCycleId);\\n\\n  function addToBalance(uint256 _projectId) external payable;\\n\\n  function allowMigration(ITerminal _contract) external;\\n\\n  function migrate(uint256 _projectId, ITerminal _to) external;\\n}\\n\",\"keccak256\":\"0x177800cf28a70e7a13ecc57afb69cf93aaebc28d8b1a1ced8809c5f70dface77\",\"license\":\"MIT\"},\"contracts/interfaces/ITerminalDirectory.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity 0.8.6;\\n\\nimport \\\"./IDirectPaymentAddress.sol\\\";\\nimport \\\"./ITerminal.sol\\\";\\nimport \\\"./IProjects.sol\\\";\\nimport \\\"./IProjects.sol\\\";\\n\\ninterface ITerminalDirectory {\\n    event DeployAddress(\\n        uint256 indexed projectId,\\n        string memo,\\n        address indexed caller\\n    );\\n\\n    event SetTerminal(\\n        uint256 indexed projectId,\\n        ITerminal indexed terminal,\\n        address caller\\n    );\\n\\n    event SetPayerPreferences(\\n        address indexed account,\\n        address beneficiary,\\n        bool preferUnstakedTickets\\n    );\\n\\n    function projects() external view returns (IProjects);\\n\\n    function terminalOf(uint256 _projectId) external view returns (ITerminal);\\n\\n    function beneficiaryOf(address _account) external returns (address);\\n\\n    function unstakedTicketsPreferenceOf(address _account)\\n        external\\n        returns (bool);\\n\\n    function addressesOf(uint256 _projectId)\\n        external\\n        view\\n        returns (IDirectPaymentAddress[] memory);\\n\\n    function deployAddress(uint256 _projectId, string calldata _memo) external;\\n\\n    function setTerminal(uint256 _projectId, ITerminal _terminal) external;\\n\\n    function setPayerPreferences(\\n        address _beneficiary,\\n        bool _preferUnstakedTickets\\n    ) external;\\n}\\n\",\"keccak256\":\"0xd30bb42ee6a7a8c35b63fd5445b0b737e39925deb12b9f3f307cb47ca0933a4b\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x60c06040523480156200001157600080fd5b5060405162000ae138038062000ae1833981016040819052620000349162000110565b6001600160601b0319606084901b1660805260a08290528051620000609060009060208401906200006a565b505050506200026c565b828054620000789062000219565b90600052602060002090601f0160209004810192826200009c5760008555620000e7565b82601f10620000b757805160ff1916838001178555620000e7565b82800160010185558215620000e7579182015b82811115620000e7578251825591602001919060010190620000ca565b50620000f5929150620000f9565b5090565b5b80821115620000f55760008155600101620000fa565b6000806000606084860312156200012657600080fd5b83516001600160a01b03811681146200013e57600080fd5b60208581015160408701519295509350906001600160401b03808211156200016557600080fd5b818701915087601f8301126200017a57600080fd5b8151818111156200018f576200018f62000256565b604051601f8201601f19908116603f01168101908382118183101715620001ba57620001ba62000256565b816040528281528a86848701011115620001d357600080fd5b600093505b82841015620001f75784840186015181850187015292850192620001d8565b82841115620002095760008684830101525b8096505050505050509250925092565b600181811c908216806200022e57607f821691505b602082108114156200025057634e487b7160e01b600052602260045260246000fd5b50919050565b634e487b7160e01b600052604160045260246000fd5b60805160601c60a051610823620002be60003960008181610213015281816102e9015281816103800152610410015260008181606e0152818161016f0152818161023c015261047901526108236000f3fe6080604052600436106100385760003560e01c80633fafa127146103fe57806358c3b870146104455780636abcf8e31461046757600080fd5b366103f9576040517fba7bffd30000000000000000000000000000000000000000000000000000000081523360048201526000907f000000000000000000000000000000000000000000000000000000000000000073ffffffffffffffffffffffffffffffffffffffff169063ba7bffd390602401602060405180830381600087803b1580156100c757600080fd5b505af11580156100db573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906100ff919061054e565b9050600073ffffffffffffffffffffffffffffffffffffffff82166101245733610126565b815b6040517f9dcbf9d600000000000000000000000000000000000000000000000000000000815233600482015290915060009073ffffffffffffffffffffffffffffffffffffffff7f00000000000000000000000000000000000000000000000000000000000000001690639dcbf9d690602401602060405180830381600087803b1580156101b357600080fd5b505af11580156101c7573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101eb9190610572565b6040517f4fe0eced0000000000000000000000000000000000000000000000000000000081527f000000000000000000000000000000000000000000000000000000000000000060048201529091507f000000000000000000000000000000000000000000000000000000000000000073ffffffffffffffffffffffffffffffffffffffff1690634fe0eced9060240160206040518083038186803b15801561029357600080fd5b505afa1580156102a7573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906102cb919061054e565b73ffffffffffffffffffffffffffffffffffffffff166302c8986f347f0000000000000000000000000000000000000000000000000000000000000000856000866040518663ffffffff1660e01b815260040161032b949392919061073f565b6020604051808303818588803b15801561034457600080fd5b505af1158015610358573d6000803e3d6000fd5b50505050506040513d601f19601f8201168201806040525081019061037d9190610594565b507f00000000000000000000000000000000000000000000000000000000000000003373ffffffffffffffffffffffffffffffffffffffff167f73c0c8eb2e5343fd4f621dee6cc0dd1f91a240b7a6245465fa884753efd7cab384346000866040516103ec9493929190610684565b60405180910390a3505050005b600080fd5b34801561040a57600080fd5b506104327f000000000000000000000000000000000000000000000000000000000000000081565b6040519081526020015b60405180910390f35b34801561045157600080fd5b5061045a6104c0565b60405161043c91906106cc565b34801561047357600080fd5b5061049b7f000000000000000000000000000000000000000000000000000000000000000081565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200161043c565b600080546104cd90610774565b80601f01602080910402602001604051908101604052809291908181526020018280546104f990610774565b80156105465780601f1061051b57610100808354040283529160200191610546565b820191906000526020600020905b81548152906001019060200180831161052957829003601f168201915b505050505081565b60006020828403121561056057600080fd5b815161056b816107c8565b9392505050565b60006020828403121561058457600080fd5b8151801515811461056b57600080fd5b6000602082840312156105a657600080fd5b5051919050565b8054600090600181811c90808316806105c757607f831692505b6020808410821415610602577f4e487b7100000000000000000000000000000000000000000000000000000000600052602260045260246000fd5b8388526020880182801561061d576001811461064c57610677565b7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00871682528282019750610677565b60008981526020902060005b8781101561067157815484820152908601908401610658565b83019850505b5050505050505092915050565b73ffffffffffffffffffffffffffffffffffffffff851681528360208201526080604082015260006106b960808301856105ad565b9050821515606083015295945050505050565b600060208083528351808285015260005b818110156106f9578581018301518582016040015282016106dd565b8181111561070b576000604083870101525b50601f017fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe016929092016040019392505050565b84815273ffffffffffffffffffffffffffffffffffffffff841660208201526080604082015260006106b960808301856105ad565b600181811c9082168061078857607f821691505b602082108114156107c2577f4e487b7100000000000000000000000000000000000000000000000000000000600052602260045260246000fd5b50919050565b73ffffffffffffffffffffffffffffffffffffffff811681146107ea57600080fd5b5056fea26469706673582212208dbcb6e1eecfe6176c6421e3252a0ab5bd3087a91b3a41bd5d7762dd4963de1764736f6c63430008060033",
+  "deployedBytecode": "0x6080604052600436106100385760003560e01c80633fafa127146103fe57806358c3b870146104455780636abcf8e31461046757600080fd5b366103f9576040517fba7bffd30000000000000000000000000000000000000000000000000000000081523360048201526000907f000000000000000000000000000000000000000000000000000000000000000073ffffffffffffffffffffffffffffffffffffffff169063ba7bffd390602401602060405180830381600087803b1580156100c757600080fd5b505af11580156100db573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906100ff919061054e565b9050600073ffffffffffffffffffffffffffffffffffffffff82166101245733610126565b815b6040517f9dcbf9d600000000000000000000000000000000000000000000000000000000815233600482015290915060009073ffffffffffffffffffffffffffffffffffffffff7f00000000000000000000000000000000000000000000000000000000000000001690639dcbf9d690602401602060405180830381600087803b1580156101b357600080fd5b505af11580156101c7573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101eb9190610572565b6040517f4fe0eced0000000000000000000000000000000000000000000000000000000081527f000000000000000000000000000000000000000000000000000000000000000060048201529091507f000000000000000000000000000000000000000000000000000000000000000073ffffffffffffffffffffffffffffffffffffffff1690634fe0eced9060240160206040518083038186803b15801561029357600080fd5b505afa1580156102a7573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906102cb919061054e565b73ffffffffffffffffffffffffffffffffffffffff166302c8986f347f0000000000000000000000000000000000000000000000000000000000000000856000866040518663ffffffff1660e01b815260040161032b949392919061073f565b6020604051808303818588803b15801561034457600080fd5b505af1158015610358573d6000803e3d6000fd5b50505050506040513d601f19601f8201168201806040525081019061037d9190610594565b507f00000000000000000000000000000000000000000000000000000000000000003373ffffffffffffffffffffffffffffffffffffffff167f73c0c8eb2e5343fd4f621dee6cc0dd1f91a240b7a6245465fa884753efd7cab384346000866040516103ec9493929190610684565b60405180910390a3505050005b600080fd5b34801561040a57600080fd5b506104327f000000000000000000000000000000000000000000000000000000000000000081565b6040519081526020015b60405180910390f35b34801561045157600080fd5b5061045a6104c0565b60405161043c91906106cc565b34801561047357600080fd5b5061049b7f000000000000000000000000000000000000000000000000000000000000000081565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200161043c565b600080546104cd90610774565b80601f01602080910402602001604051908101604052809291908181526020018280546104f990610774565b80156105465780601f1061051b57610100808354040283529160200191610546565b820191906000526020600020905b81548152906001019060200180831161052957829003601f168201915b505050505081565b60006020828403121561056057600080fd5b815161056b816107c8565b9392505050565b60006020828403121561058457600080fd5b8151801515811461056b57600080fd5b6000602082840312156105a657600080fd5b5051919050565b8054600090600181811c90808316806105c757607f831692505b6020808410821415610602577f4e487b7100000000000000000000000000000000000000000000000000000000600052602260045260246000fd5b8388526020880182801561061d576001811461064c57610677565b7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00871682528282019750610677565b60008981526020902060005b8781101561067157815484820152908601908401610658565b83019850505b5050505050505092915050565b73ffffffffffffffffffffffffffffffffffffffff851681528360208201526080604082015260006106b960808301856105ad565b9050821515606083015295945050505050565b600060208083528351808285015260005b818110156106f9578581018301518582016040015282016106dd565b8181111561070b576000604083870101525b50601f017fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe016929092016040019392505050565b84815273ffffffffffffffffffffffffffffffffffffffff841660208201526080604082015260006106b960808301856105ad565b600181811c9082168061078857607f821691505b602082108114156107c2577f4e487b7100000000000000000000000000000000000000000000000000000000600052602260045260246000fd5b50919050565b73ffffffffffffffffffffffffffffffffffffffff811681146107ea57600080fd5b5056fea26469706673582212208dbcb6e1eecfe6176c6421e3252a0ab5bd3087a91b3a41bd5d7762dd4963de1764736f6c63430008060033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {
+      "constructor": {
+        "params": {
+          "_memo": "The memo to use when this contract forwards a payment to a terminal.",
+          "_projectId": "The ID of the project to pay when this contract receives funds.",
+          "_terminalDirectory": "A directory of a project's current Juicebox terminal to receive payments in."
+        }
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {
+      "memo()": {
+        "notice": "The memo to use when this contract forwards a payment to a terminal."
+      },
+      "projectId()": {
+        "notice": "The ID of the project to pay when this contract receives funds."
+      },
+      "terminalDirectory()": {
+        "notice": "The directory to use when resolving which terminal to send the payment to."
+      }
+    },
+    "notice": "A contract that can receive funds directly and forward to a project's current terminal.",
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 4216,
+        "contract": "contracts/DirectPaymentAddress.sol:DirectPaymentAddress",
+        "label": "memo",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_string_storage"
+      }
+    ],
+    "types": {
+      "t_string_storage": {
+        "encoding": "bytes",
+        "label": "string",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}

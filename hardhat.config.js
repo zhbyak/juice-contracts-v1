@@ -45,6 +45,20 @@ module.exports = {
         mnemonic: mnemonic(),
       },
     },
+    bsctestnet: {
+      url: 'https://data-seed-prebsc-1-s1.binance.org:8545/',
+      gasPrice: 50000000000,
+      accounts: {
+        mnemonic: mnemonic(),
+      },
+    },
+    mumbai: {
+      url: 'https://rpc-mumbai.matic.today',
+      gasPrice: 20000000000,
+      accounts: {
+        mnemonic: mnemonic(),
+      },
+    }
   },
   namedAccounts: {
     deployer: {

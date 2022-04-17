@@ -3,6 +3,8 @@
  */
 
 module.exports = async ({ getNamedAccounts, deployments, getChainId }) => {
+  console.log("v1 rescue deploy")
+
   const { deploy } = deployments;
   const { deployer } = await getNamedAccounts();
 
